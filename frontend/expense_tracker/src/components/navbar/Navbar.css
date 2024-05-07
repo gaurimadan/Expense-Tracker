@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    background: rgb(214, 201, 196);
+    height: 5rem;
+    width:95vw;
+    max-width: 75;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    justify-content:space-between;
+    position: sticky;
+    top:0;
+    z-index: 3;
+
+}
+.logo{
+    object-fit: cover;
+    height: 2rem;
+    width: 3rem;
+}
+
+.deskMenuItem{
+    margin: 1rem;
+    cursor: pointer;
+    color: rgb(53, 3, 6);
+
+}
+.deskMenuItem:hover{
+    color: rgb(53, 3, 6);
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid rgb(53, 3, 7);
+}
+.deskImg{
+    object-fit: cover;
+    height: 3rem;
+    width: 4rem;
+    margin: 0.5rem;
+    
+}
+.desktopmenubtn{
+    background: white;
+    border: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    border-radius: 2rem;
+    font-size: larger;
+    
+}
+
