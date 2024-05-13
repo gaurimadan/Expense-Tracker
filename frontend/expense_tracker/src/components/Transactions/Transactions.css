@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    /* margin-top: auto; */
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-left: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* Set the height to occupy the full viewport height */
+  }
+  .transactions ul {
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .transactions li {
+    list-style: none; /* Remove default list styles */
+    border-bottom: 1px solid #ccc; /* Add a bottom border to each list item */
+    padding: 10px 0; /* Add padding to top and bottom of each list item */
+  }
+  
+  .transactions li:last-child {
+    border-bottom: none; /* Remove bottom border from the last list item */
+  }

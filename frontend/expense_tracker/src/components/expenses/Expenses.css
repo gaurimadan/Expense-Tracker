@@ -1,56 +1,56 @@
 .container {
-    display: flex;
-    /* margin-top: auto; */
-    margin-right: auto;
-    margin-bottom: 5px;
-    margin-left: 60px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 50vh; /* Set the height to occupy the full viewport height */
-  }
-  
-  .balance {
-    margin-top: 470px;
-    margin-left: 5px;
-   
+  display: flex;
+  /* margin-top: auto; */
+  margin-right: auto;
+  margin-bottom: 5px;
+  margin-left: 100px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; /* Set the height to occupy the full viewport height */
+}
 
-  }
+h2 {
+  margin-top: 259px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(242, 232, 232); ;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: rgb(53, 3, 6);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #670908;
+}
+
+.balance {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#balance {
+  font-weight: bold;
   
-  .add-expense {
-    border: 1px solid #ccc;
-    padding: 20px;
-    border-radius: 8px;
-    width: 300px; /* Set a fixed width for the form container */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .add-expense form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .add-expense label {
-    margin-bottom: 8px;
-  }
-  
-  .add-expense input {
-    margin-bottom: 16px;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  .add-expense button {
-    padding: 8px 16px;
-    background-color: rgb(53, 3, 6);
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .add-expense button:hover {
-    background-color:rgb(68, 10, 14);
-  }
-  
+}
