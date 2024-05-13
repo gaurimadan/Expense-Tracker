@@ -10,7 +10,7 @@ function Chatbot() {
      async function generateAnswer(){
         setAns("loading");
        const Response= await axios({
-            url:"https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=AIzaSyDHPvFPExvnQ7u8TcxYIW93flCKe7JkY4o",
+            url:"https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key="",
             method:"post",
             data:{"contents":[{"parts":[{"text":ques}]}]}
         })
