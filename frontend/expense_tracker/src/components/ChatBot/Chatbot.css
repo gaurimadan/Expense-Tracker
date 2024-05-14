@@ -1,0 +1,29 @@
+.chatbot-container {
+    position: fixed;
+    bottom: 5px;
+    right: 20px;
+  }
+
+  .chatbot-button {
+    background-color: rgb(53, 3, 6);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  .chatbot-button:hover {
+    background-color: #670908;
+  }
+
+  .chatbot-textarea {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+  }
+
+  .chatbot-answer {
+    margin-top: 20px;
+  }
+

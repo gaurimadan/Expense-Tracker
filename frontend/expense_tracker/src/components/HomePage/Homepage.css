@@ -1,0 +1,26 @@
+#Intro{
+    height: calc(95vh-4rem);
+    width: 95vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.introcontent{
+    padding: 2rem;
+    
+    font-size: 20rem;
+    font-weight: 900;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+}
+
+
+.intropara{
+    font-size: medium;
+    font-weight: 300;
+}
+

@@ -3,8 +3,10 @@ import './Navbar.css';
 import { Link } from 'react-scroll';
 import Expenses from '../expenses/Expenses';
 import Transactions from '../Transactions/Transactions';
+import Homepage from "../HomePage/Homepage"
 
 const Navbar = () => {
+  console.log(process.env.REACT_APP_GEN_AI_KEY)
   const [selectedOption, setSelectedOption] = useState(null);
   const [transactions, setTransactions] = useState([]);
 
@@ -25,6 +27,8 @@ const Navbar = () => {
         return <Expenses addTransaction={addTransaction} />;
       case 'Transactions':
         return <Transactions transactions={transactions} />;
+      case "Home":
+        return <Homepage/>;
       // other cases...
       default:
         return null;
