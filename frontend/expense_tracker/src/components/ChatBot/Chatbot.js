@@ -17,8 +17,10 @@ function Chatbot() {
         })
         
        
-        if(ans!="")
-            { setAns(Response["data"]["candidates"][0]["content"]["parts"][0]["text"]);}
+       const fullans=Response["data"]["candidates"][0]["content"]["parts"][0]["text"]
+       const words = fullans.split(' ');
+        const shortans=words.slice(0,75).join(" ");
+        setAns(shortans);
         setShowTextarea(true);
     }
     console.log(ans)
@@ -38,7 +40,8 @@ function Chatbot() {
              {showTextarea && (
                 <>
                     <Index onClick={showTextarea}> <textarea className="chatbot-textarea" value={ques} onChange={(e) => setQues(e.target.value)} cols="30" rows="5"></textarea>
-                    <button className="chatbot-button" onClick={generateAnswer}>Answer</button><p className="chatbot-answer">{ans}</p></Index>
+                    <p className="chatbot-answer">{ans}</p>
+                    <button className="chatbot-button" onClick={generateAnswer}>Answer</button></Index>
                    
                 </>
             )}

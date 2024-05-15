@@ -2,6 +2,7 @@
     position: fixed;
     bottom: 5px;
     right: 20px;
+   
   }
 
   .chatbot-button {
@@ -11,6 +12,7 @@
     border-radius: 5px;
     padding: 10px 20px;
     cursor: pointer;
+    
   }
 
   .chatbot-button:hover {
@@ -21,9 +23,15 @@
     width: 100%;
     max-width: 400px;
     margin-bottom: 20px;
+    height: calc(100% - 70px);
   }
 
   .chatbot-answer {
-    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: x-small;
   }
-
+  .chatbot-textarea {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 450px;
+}
