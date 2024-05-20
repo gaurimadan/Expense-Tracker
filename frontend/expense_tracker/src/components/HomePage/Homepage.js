@@ -1,5 +1,6 @@
 import React from 'react'
 import './Homepage.css';
+import MyChart from "../charts/Chart";
 
 
 
@@ -8,7 +9,7 @@ const Homepage = () => {
     <section id='Intro'>
     <div className='introcontent'>
        
-        
+        <MyChart/>
         <p className='intropara'>Expense Tracking for those<br/> who value money</p>
         
     </div>

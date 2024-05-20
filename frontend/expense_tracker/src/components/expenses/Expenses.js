@@ -34,7 +34,7 @@ const Expenses = ({ addTransaction }) => {
       <h2>Expenses</h2>
 	  <div className="balance">
                 <h2>
-                    Balance: Rs 
+                    Expenditure: Rs 
                     <span id="balance">
                         {balance.toFixed(2)}
                     </span>

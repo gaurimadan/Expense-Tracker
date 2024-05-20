@@ -1,23 +1,25 @@
-import React from 'react'
-
+import React, { useState } from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 import Navbar from './components/navbar/Navbar';
 import Chatbot from './components/ChatBot/Chatbot';
-import Sidebar from './components/Sidebar/Index';
 
+function App() {
+  const [transactions, setTransactions] = useState([]);
 
-
-const App = () => {
+  const addTransaction = (newTransaction) => {
+    setTransactions((prevTransactions) => [
+      ...prevTransactions,
+      newTransaction,
+    ]);
+  };
 
   return (
-    <div style={{overflow:"hidden"}}>
-    
-      
-      <Navbar/>
-      
+    <Router>
+      <Navbar />
       <Chatbot/>
-      
-    </div>
-  )
+     
+     </Router>
+  );
 }
 
-export default App
+export default App;
