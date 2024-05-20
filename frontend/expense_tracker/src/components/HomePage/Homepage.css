@@ -1,26 +1,47 @@
-#Intro{
-    height: calc(95vh-4rem);
-    width: 95vw;
-    max-width: 75rem;
-    margin: 0 auto;
-    overflow: hidden;
-}
 
-.introcontent{
-    padding: 2rem;
-    
-    font-size: 20rem;
-    font-weight: 900;
+.introcontent {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  
+  .intropara {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:  rgb(53, 3, 6);/* Adjust color as needed */
+    margin-bottom: 20px; /* Space between heading and buttons */
+  }
+  
+
+  .button-container {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    
-
-}
-
-
-.intropara{
-    font-size: medium;
-    font-weight: 300;
-}
-
+    gap: 20px; /* Space between buttons */
+    margin-top: 150px; /* Space between buttons and chart */
+  }
+  
+ 
+  .Balance, .Savings, .spent {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color:  rgb(53, 3, 6);/* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px; /* Smooth background color transition */
+  }
+  
+ 
+  
+  /* Container for the chart */
+  .charts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 200px;
+  }
+  

@@ -1,8 +1,10 @@
 .chart-container {
-    width: 100%; /* Adjust the width as needed */
-    margin-top: 300px; /* Add some margin for spacing */
-    margin-right: 150px;
-    justify-content: flex-start;
+    width: 50%;
+    height: 100%; /* Adjust the width as needed */
+    margin-top: 450px; /* Add some margin for spacing */
+    margin-right: 500px;
+    display: block;
+  
 
 }
 

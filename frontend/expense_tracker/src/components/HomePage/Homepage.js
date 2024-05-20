@@ -1,21 +1,25 @@
-import React from 'react'
+import React from 'react';
 import './Homepage.css';
 import MyChart from "../charts/Chart";
 
-
-
 const Homepage = () => {
   return (
-    <section id='Intro'>
-    <div className='introcontent'>
-       
-        <MyChart/>
-        <p className='intropara'>Expense Tracking for those<br/> who value money</p>
-        
-    </div>
-    <img src='' alt='' className='bg'/>
-    </section>
+    <>
+      <div className='introcontent'>
+        {/* <h2 className='intropara'>MONEY MAVEN</h2> */}
+      </div>
+
+      <div className='button-container'>
+        <button className='Balance'>Balance</button>
+        <button className='Savings'>Savings</button>
+        <button className='spent'>Expenditure</button>
+      </div>
+
+      <div className='charts'>
+        <MyChart />
+      </div>
+    </>
   )
 }
 
-export default Homepage
+export default Homepage;
